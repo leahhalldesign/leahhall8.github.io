@@ -1,4 +1,4 @@
-const currentDate = new Date ();
+var currentDate = new Date ();
 console.log(currentDate);
 
 var currentYear = currentDate.getFullYear();
