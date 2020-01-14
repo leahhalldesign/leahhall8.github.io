@@ -1,5 +1,7 @@
-let myName = 'Leah E. Hall';
+const currentDate = new Date ();
+console.log(currentDate);
 
-var string = document.lastModified;
-alert(document.lastModified);
-let oLastModif = new Date(document.lastModified);
+var currentYear = currentDate.getFullYear();
+console.log(currentYear);
+
+document.getElementById("currentYear").innerHTML = currentYear;
