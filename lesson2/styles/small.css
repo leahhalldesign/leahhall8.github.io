@@ -1,7 +1,12 @@
 header {
     background-color: #BA9F9D;
     border-radius: 5px;
-    padding: 15px 35%;
+    padding: 15px 20%;
     font-family: Lora, serif;
     font-weight: 700;
+    text-align: center;
+}
+section {
+    border-color: crimson;
+    border-radius: 5px;
 }
