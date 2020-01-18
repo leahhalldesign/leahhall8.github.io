@@ -16,6 +16,8 @@ div {
     border-radius: 10px;
     background-color: lightgrey;
     margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 h3 {
     background-color: #223745;
