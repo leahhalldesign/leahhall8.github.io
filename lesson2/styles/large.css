@@ -1,0 +1,15 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    padding: 0.75em;
+}
+#proximity {
+    grid-column: 1/2;
+}
+#alignment {
+    grid-column: 2/3;
+}
+#contrast {
+    grid-column: 3/4;
+}

@@ -1,6 +1,7 @@
 html {
     max-width: 750px;
     margin: auto;
+    grid-template-columns: repeat(4, 1fr);
 }
 header {
     background-color: #BA9F9D;
@@ -31,4 +32,25 @@ img {
 }
 a {
     color: black;
+}
+div {
+    display: inline-block;
+}
+.grid {
+    display: inline-grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 1fr;
+    grid-gap: 1em;
+}
+#proximity {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#alignment {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#contrast {
+    grid-column: 3/4;
+    grid-row: 1/2;
 }
