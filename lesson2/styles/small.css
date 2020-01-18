@@ -1,7 +1,6 @@
 html {
     max-width: 750px;
     margin: auto;
-    grid-template-columns: repeat(4, 1fr);
 }
 header {
     background-color: #BA9F9D;
