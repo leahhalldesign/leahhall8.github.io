@@ -2,7 +2,7 @@
     .grid {
         display: inline-grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 200px 1fr;
+        grid-template-rows: 700px 1fr;
         grid-gap: 1em;
     }
     #proximity {
