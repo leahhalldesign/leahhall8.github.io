@@ -24,6 +24,7 @@ h3 {
 }
 h3, p {
     padding-left: 20px;
+    padding-right: 20px;
 }
 img {
     width: 90%;
