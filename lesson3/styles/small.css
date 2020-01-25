@@ -63,3 +63,6 @@ header a:active {
 main a {
     color: #C08552;
 }
+main p {
+    margin-top: -20px;
+}
