@@ -2,4 +2,7 @@
     ul.flex {
         flex-wrap: wrap;
     }
+    ul.flex li {
+        padding: 0 10px;
+    }
 }
