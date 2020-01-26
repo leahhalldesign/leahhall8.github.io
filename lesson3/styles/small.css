@@ -57,7 +57,7 @@ header a:hover {
     color: #16302B;
 }
 header a:active {
-    color: #CFD4C5;
+    color: #98E2C6;
 }
 main a {
     color: #C08552;
@@ -65,7 +65,7 @@ main a {
 main p {
     margin-top: -20px;
 }
-#ta img {
+#ta img, .wide {
     width: 90%;
     margin-top: -50px;
 }
@@ -78,5 +78,32 @@ main p {
 }
 .circle {
     list-style: circle;
+}
+main {
     margin-bottom: 100px;
+}
+#gray {
+    color: white;
+    background: #88A096;
+    padding: 20px 30px;
+}
+#jungle {
+    color: white;
+    background: #16302B;
+    padding: 20px 30px;
+}
+#deer {
+    color: white;
+    background: #C08552;
+    padding: 20px 30px;
+}
+#sea {
+    color: white;
+    background: #98E2C6;
+    padding: 20px 30px;
+}
+#black {
+    color: white;
+    background: #000000;
+    padding: 20px 30px;
 }
