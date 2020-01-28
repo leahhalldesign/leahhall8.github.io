@@ -44,3 +44,9 @@ h1, h3 {
 h2, p {
     font-family: Montserrat, sans-serif;
 }
+h1 {
+    font-size: 3em;
+}
+h3 {
+    font-size: 2em;
+}
