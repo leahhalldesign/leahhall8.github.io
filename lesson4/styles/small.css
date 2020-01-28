@@ -1,3 +1,9 @@
 ul {
     list-style: none;
 }
+ul li a {
+    text-decoration: none;
+}
+nav {
+    background-color: #88A096;
+}

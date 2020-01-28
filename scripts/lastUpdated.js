@@ -1,3 +1,1 @@
-document.write("Last Updated: " + document.lastModified);
-
-document.getElementById("lastUpdated").innerHTML = lastModified;
+document.getElementById("lastUpdate").innerHTML = document.lastModified;
