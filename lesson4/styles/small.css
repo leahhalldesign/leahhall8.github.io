@@ -1,9 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
+
+html {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 ul {
     list-style: none;
 }
 ul li a {
     text-decoration: none;
 }
-nav {
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
     background-color: #88A096;
+}
+h1,h2,h3 {
+    font-family: Bebas Neue, sans-serif;
+}
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 3em;
+}
+h3 {
+    font-size: 2.5em;
+}
+h4,p,a, li {
+    font-family: Montserrat, sans-serif;
+}
+h4 {
+    font-size: 1.5em;
+}
+p, p a {
+    font-size: 1em;
+}
+a {
+    font-size: 1.5em;
+}
+header a:link {
+    color: white;
+}
+header a:visited {
+    color: white;
+}
+header a:hover {
+    color: #16302B;
+}
+header a:active {
+    color: #98E2C6;
+}
+header p {
+    margin-top: -50px;
+    margin-left: 120px;
+}
+header h1 {
+    margin-top: 10px;
+    margin-left: 120px;
+}
+header img {
+    position: absolute;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
