@@ -1,0 +1,13 @@
+@media only screen and (min-width: 850px) {
+    ul.flex li:first-child {
+        display: none;
+    }
+    ul.flex li {
+        display: flex;
+        padding: 0 10px;
+    }
+    ul.flex {
+        flex-direction: row; 
+        justify-content: space-evenly;
+    }
+}
