@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
 
 body {
-    min-height: 100%;
+    height: 100%;
+    position: relative;
 }
 header, main, footer p {
     max-width: 1200px;
@@ -79,12 +80,11 @@ header img {
 footer {
     background-color: #16302B;
     padding: 30px 0;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 footer p {
     color: white;
+    text-align: center;
 }
 .flex li:first-child {
 	display: block;
@@ -97,16 +97,67 @@ footer p {
 }
 #hero img {
     width: 100%;
-    height: 400px;
+    height: 300px;
     object-fit: cover;
 }
 #hero article {
     position: absolute;
-    top: 100px;
-    left: 50px;
+    top: 230px;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 40px 50px;
 }
 table, tr, th, td {
-    border: 1px solid black;
+    border: 1px solid #CCC;
     border-collapse: collapse;
     padding: 5px;
+    font-family: Montserrat, sans-serif;
+    color: #333;
+    height: 30px;
 }
+th {
+    background: #F3F3F3;
+}
+td {
+    background: #FAFAFA;
+    text-align: center;
+    width: 640px;
+}
+#five-day-forecast {
+    display: none;
+}
+#article img {
+    width: 100%;
+}
+#article {
+    background-color: #88A096;
+    padding: 0 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+#author {
+    margin-top: -30px;
+}
+#contact h4 {
+    margin-bottom: -5px;
+    text-align: center;
+}
+#contact p {
+    line-height: .5em;
+    text-align: center;
+}
+#contact a {
+    font-size: 1em;
+    text-align: center;
+}
+#contact img {
+    display: none;
+}
+main h1 {
+    margin: 20px 10px;
+}
+li.selected a {
+    color: #16302B;
+}
+
