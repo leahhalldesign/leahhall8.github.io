@@ -46,3 +46,15 @@ fullDate += ' ' + year;
 
 /* full date */
 document.querySelector('#current-date').textContent = fullDate;
+
+
+/* pancake */
+const currentDate = newDate();
+const aside = document.querySelector('aside');
+
+if (currentDate.getDay() === 5) {
+    aside.style.display = 'block';
+}
+    else {
+        aside.style.display = 'none';
+    }
