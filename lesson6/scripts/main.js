@@ -74,5 +74,5 @@ if (t<=50 && s >= 3) {
     }
 
 document.querySelector('#current-temp').innerHTML = t + '&deg';
-document.querySelector('#wind-speed').innerHTML = s + 'MPH';
+document.querySelector('#wind-speed').innerHTML = s + 'mph';
 
