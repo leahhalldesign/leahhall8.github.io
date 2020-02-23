@@ -13,4 +13,8 @@
     #contact p, #contact a, #contact h4 {
         margin-left: 70%;
     }
+    .fig {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
