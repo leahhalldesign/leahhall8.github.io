@@ -17,4 +17,16 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .towns article, .towns img {
+        width: 350px;
+    }
+    .towns img {
+        height: 250px;
+    }
+    #fishHavenImage {
+        margin-top: 26px;
+    }
+    #prestonImage {
+        margin-top: 0;
+    }
 }

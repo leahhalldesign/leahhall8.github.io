@@ -51,10 +51,22 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .grid {
+    .towns {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+    }
+    .towns article, .towns img {
+        width: 250px;
+    }
+    .towns img {
+        height: 200px;
+    }
+    #fishHavenImage {
+        margin-top: 50px;
+    }
+    #prestonImage {
+        margin-top: 30px;
     }
 }
       
