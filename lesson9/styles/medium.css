@@ -51,22 +51,40 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .towns {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+    .towns article {
+        text-align: left;
+        padding-left: 20px;
+        margin-bottom: 30px;
     }
-    .towns article, .towns img {
-        width: 250px;
-    }
-    .towns img {
-        height: 200px;
-    }
-    #fishHavenImage {
-        margin-top: 50px;
-    }
+    #prest {
+        position: relative;
+    } 
     #prestonImage {
-        margin-top: 30px;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+    #soda {
+        position: relative;
+    } 
+    #sodaSpringsImage {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+    #fish {
+        position: relative;
+    } 
+    #fishHavenImage {
+        position: absolute;
+        top: 0px;
+        right: 30px;
+    }
+    #sodaSpringsMotto {
+        width: 35%;
+    }
+    #prestonMotto {
+        width: 49%;
     }
 }
       

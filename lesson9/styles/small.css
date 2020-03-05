@@ -232,6 +232,7 @@ input[type="radio"] {
      width: 350px;
      text-align: center;
      background-color: rgba(192, 133, 82, 0.7);
+     margin-bottom: 30px;
 }
 .towns article {
     width: 75%;
@@ -246,9 +247,4 @@ input[type="radio"] {
 }
 .towns article p img {
     margin-bottom: 0;
-}
-.towns div {
-    border: 1px solid lightgrey;
-    margin-bottom: 30px;
-    padding: 10px;
 }

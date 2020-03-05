@@ -22,11 +22,27 @@
     }
     .towns img {
         height: 250px;
+        padding: 0;
     }
     #fishHavenImage {
         margin-top: 26px;
     }
     #prestonImage {
         margin-top: 0;
+    }
+    #sodaSpringsImage {
+        margin: 0;
+    }
+    .towns {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .towns article {
+        text-align: center;
+        padding: 0;
+    }
+    .towns h4 {
+        width: 100%;
     }
 }
