@@ -220,3 +220,7 @@ input[type="radio"] {
     margin: 10px 0;
     display: inline-block;
 }
+.grid {
+    display: flex;
+    flex-direction: column;
+}

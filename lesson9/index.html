@@ -18,16 +18,49 @@
         <nav>
             <ul class="flex">
                 <li class="ham"><a href="#">&equiv; Menu</a></li>
-                <li><a href="index.html">Home</a></li>
+                <li class="selected"><a href="index.html">Home</a></li>
                 <li><a href="preston-9.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a href="stormcenter-9.html">Storm Center</a></li>
-                <li class="selected"><a href="gallery-9.html">Gallery</a></li>
+                <li><a href="gallery-9.html">Gallery</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <section class="grid">
+            <article>
+                <h2 id="prestonName"></h2>
+                <h3 id="prestonMotto"></h3>
+                <p id="prestonYearFounded"></p>
+                <p id="prestonPopulation"></p>
+                <p id="prestonAnnualRainfall"></p>
+                 <p>   
+                    <img src="" alt="" id="prestonImage">
+                </p>
+            </article>
+            <article>
+                <h2 id="sodaSpringsName"></h2>
+                <h3 id="sodaSpringsMotto"></h3>
+                <p id="sodaSpringsYearFounded"></p>
+                <p id="sodaSpringsPopulation"></p>
+                <p id="sodaSpringsAnnualRainfall"></p>
+                 <p>   
+                    <img src="" alt="" id="sodaSpringsImage">
+                </p>
+
+            </article>
+            <article>
+                <h2 id="fishHavenName"></h2>
+                <h3 id="fishHavenMotto"></h3>
+                <p id="fishHavenYearFounded"></p>
+                <p id="fishHavenPopulation"></p>
+                <p id="fishHavenAnnualRainfall"></p>
+                 <p>   
+                    <img src="" alt="" id="fishHavenImage">
+                </p>
+            </article>
+        </section>
     </main>
     <footer>
         <p>&copy; The Hiking Guide | <span id="current-date"></span> | Leah Hall</p>
@@ -35,8 +68,8 @@
     <script src="scripts/ham.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="scripts/webfontloader.js"></script>
-    <script src="scripts/lazyload.js"></script>
     <script src="scripts/lastUpdated.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/towns.js"></script>
 </body>
 </html>
