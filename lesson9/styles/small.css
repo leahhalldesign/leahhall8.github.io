@@ -227,6 +227,7 @@ input[type="radio"] {
 .towns img {
     width: 350px;
     height: 250px;
+    box-shadow: 0px 0px 15px 0px #88A096;
 }
 .towns article {
      width: 350px;

@@ -45,4 +45,15 @@
     .towns h4 {
         width: 100%;
     }
-}
+    .towns img {
+        box-shadow: none;
+    }
+    #prestonImage {
+        position: static;
+    }
+    #sodaSpringsImage {
+        position: static;
+    }
+    #fishHavenImage {
+        position: static;
+    }
