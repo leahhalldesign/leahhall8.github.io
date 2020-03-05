@@ -42,7 +42,10 @@
         text-align: center;
         padding: 0;
     }
-    .towns h4 {
+    #prestonMotto {
+        width: 100%;
+    }
+    #sodaSpringsMotto {
         width: 100%;
     }
     .towns img {
@@ -57,3 +60,7 @@
     #fishHavenImage {
         position: static;
     }
+    .towns img {
+        padding-bottom: 0px;
+    }
+}
