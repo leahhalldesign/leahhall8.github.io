@@ -1,0 +1,255 @@
+/* @import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap'); */
+
+body {
+    height: 100%;
+    position: relative;
+}
+header, main, footer p {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #88A096;
+}
+h1,h2,h3 {
+    font-family: Bebas Neue, sans-serif;
+}
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 3em;
+}
+h3 {
+    font-size: 2.5em;
+}
+h4,p,a, li {
+    font-family: Montserrat, sans-serif;
+}
+h4 {
+    font-size: 1.5em;
+}
+p, p a {
+    font-size: 1em;
+}
+a {
+    font-size: 1.5em;
+}
+li.ham a:link {
+    color: black;
+}
+li.ham a:visited {
+    color: black;
+}
+header a:link {
+    color: white;
+}
+header a:visited {
+    color: white;
+}
+header a:hover {
+    color: #16302B;
+}
+header a:active {
+    color: #98E2C6;
+}
+header p {
+    margin-top: -50px;
+    margin-left: 120px;
+}
+header h1 {
+    margin-top: 10px;
+    margin-left: 120px;
+}
+header img {
+    position: absolute;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+footer {
+    background-color: #16302B;
+    padding: 30px 0;
+    width: 100%;
+}
+footer p {
+    color: white;
+    text-align: center;
+}
+.flex li:first-child {
+	display: block;
+}
+.flex li {
+	display: none;
+}
+.responsive li {
+	display: block;
+}
+#hero img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+#hero article img {
+    width: 50px;
+    height: 50px;
+}
+#hero article {
+    position: absolute;
+    top: 230px;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 30px 50px;
+    margin-top: 50px;
+}
+table, tr, th, td {
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+    padding: 5px;
+    font-family: Montserrat, sans-serif;
+    color: #333;
+    height: 30px;
+}
+th {
+    background: #F3F3F3;
+}
+td {
+    background: #FAFAFA;
+    text-align: center;
+    width: 640px;
+}
+#five-day-forecast {
+    display: none;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+#article img {
+    width: 100%;
+}
+#article {
+    background-color: #88A096;
+    padding: 0 20px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin: 10px;
+}
+#author {
+    margin-top: -30px;
+}
+#contact {
+    padding-top: 60px;
+}
+#contact h4 {
+    margin-bottom: -5px;
+    text-align: center;
+}
+#contact p {
+    line-height: .5em;
+    text-align: center;
+}
+#contact a {
+    font-size: 1em;
+    text-align: center;
+}
+#contact img {
+    display: none;
+}
+main h1 {
+    margin: 20px 10px;
+}
+li.selected a {
+    color: #16302B;
+    font-weight: 600;
+}
+main h1 {
+    padding-bottom: 10px;
+}
+nav {
+    padding-bottom: 10px;
+}
+figure img {
+    display: block;
+    width: 350px;
+}
+figcaption {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    padding-top: 5px;
+}
+figure {
+    box-shadow: 0px 0px 1px 1px #888888;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+figure:hover {
+    box-shadow: 0px 0px 5px 5px #888888;
+}
+
+form {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px; 
+    border: 1px solid #CCC;
+    padding: 50px;
+    box-shadow: 0px 0px 25px 5px #ccc;
+    font-family: 'Montserrat', sans-serif;
+}
+form input {
+    width: 100%;
+}
+form div {
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    width: 100px;
+    border-radius: 10px;
+    background-color: #C08552;
+    padding: 5px;
+}
+input[type="radio"] {
+    position: relative;
+    margin: 10px 0;
+    display: inline-block;
+}
+.towns {
+    display: flex;
+    flex-direction: column;
+}
+.towns img {
+    width: 350px;
+    height: 250px;
+    box-shadow: 0px 0px 15px 0px #88A096;
+}
+.towns article {
+     width: 350px;
+     text-align: center;
+     background-color: rgba(192, 133, 82, 0.7);
+     margin-bottom: 30px;
+}
+.towns article {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 10px;
+}
+#fishHavenImage {
+    margin-top: 26px;
+}
+.towns article p img {
+    margin-bottom: 0;
+}
