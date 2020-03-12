@@ -52,9 +52,7 @@ const apiURLForecast = "https://api.openweathermap.org/data/2.5/forecast?id=5604
 fetch(apiURLForecast)
             .then(response => response.json())
             .then(
-                jsObject => {
-                    
-                   
+                jsObject => {                   
                     let counter = 1;
                     jsObject.list.forEach(
                         forecast => {
@@ -64,7 +62,7 @@ fetch(apiURLForecast)
 
                                 document.getElementById(`day${counter}`).textContent = dayOfWeek;
 
-                                document.getElementById(`temp${counter}`).textContent = forecast.main.temp;
+                                document.getElementById(`temp${counter}`).innerHTML = forecast.main.temp.toFixed(0) + '&deg';
                                 
                                 counter++;
                             }
