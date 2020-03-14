@@ -32,9 +32,9 @@ fetch(apiURLWeather)
 
             let imageURL = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
 
-            document.querySelector('#weatherImage').setAttribute('src', imageURL);
+            document.querySelector('.weatherImage').setAttribute('src', imageURL);
 
-            document.querySelector('#weatherImage').setAttribute('alt', jsObject.weather[0].main)
+            document.querySelector('.weatherImage').setAttribute('alt', jsObject.weather[0].main);
 
             });
             
@@ -65,8 +65,27 @@ fetch(apiURLForecast)
                                 document.getElementById(`temp${counter}`).innerHTML = forecast.main.temp.toFixed(0) + '&deg';
                                 
                                 counter++;
-                            }
-                        }
-                    );
-                }
-            );
+                            }});
+                            let imageURL = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
+
+                            document.querySelector('.weatherImage').setAttribute('src', imageURL);
+                            document.querySelector('.weatherImage').setAttribute('alt', jsObject.weather[0].main);
+
+                            document.querySelector('.weatherImage').setAttribute('src', imageURL);
+                            document.querySelector('.weatherImage').setAttribute('alt', jsObject.weather[1].main);
+
+                            document.querySelector('.weatherImage').setAttribute('src', imageURL);
+                            document.querySelector('.weatherImage').setAttribute('alt', jsObject.weather[2].main);
+
+                            document.querySelector('.weatherImage').setAttribute('src', imageURL);
+                            document.querySelector('.weatherImage').setAttribute('alt', jsObject.weather[3].main);
+
+                            document.querySelector('.weatherImage').setAttribute('src', imageURL);
+                            document.querySelector('.weatherImage').setAttribute('alt', jsObject.weather[4].main);
+
+                            document.querySelector('.weatherImage').setAttribute('src', imageURL);
+                            document.querySelector('.weatherImage').setAttribute('alt', jsObject.weather[5].main);
+
+                            document.querySelector('.weatherImage').setAttribute('src', imageURL);
+                            document.querySelector('.weatherImage').setAttribute('alt', jsObject.weather[6].main);
+                });
