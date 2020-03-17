@@ -3,7 +3,6 @@
 body {
     height: 100%;
     position: relative;
-    max-width: 1650px;
 }
 header, main, footer p {
     max-width: 1200px;
