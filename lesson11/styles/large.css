@@ -3,6 +3,9 @@
         flex-direction: row; 
         justify-content: space-evenly;
     }
+    #hero article {
+        left: 10%;
+    }
     #article img {
         margin-top: -190px;
         width: 325px;
@@ -59,5 +62,11 @@
     }
     .towns img {
         padding-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    #hero article {
+        left: 15%;
     }
 }
