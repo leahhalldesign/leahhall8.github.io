@@ -68,7 +68,17 @@ fetch(apiURLForecast)
                             }
                             //let imageURL = `https://openweathermap.org/img/w/${jsObject.list[i].weather[0].icon}.png`;
 
-                            //document.querySelector('.weatherImage').setAttribute('src', imageURL);
+                            //document.querySelector('.forecastImage').setAttribute('src', imageURL);
 
-                            //document.querySelector('.weatherImage').setAttribute('alt', jsObject.list[i].weather[0].main);
+                            //document.querySelector('.forecastImage').setAttribute('alt', jsObject.list[i].weather[0].main);
                         })});
+
+                        //var i = [
+                            //'Sunday',
+                            //'Monday',
+                            //'Tuesday',
+                            //'Wednesday',
+                            //'Thursday',
+                            //'Friday',
+                            //'Saturday'
+                        //];

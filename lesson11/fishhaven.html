@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles/large.css">
     <title>Fish Haven</title>
 </head>
-<body>
+<body onload="getEvents('Fish Haven')">
     <header>
         <a href="index.html"><img src="images/hikingguidelogo.png" alt="The Hiking Guide Logo"></a>
         <h1>The Hiking Guide</h1>
@@ -28,9 +28,6 @@
         </nav>
     </header>
     <main>
-        <aside>
-            <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
-        </aside>
         <h1>Fish Haven | Idaho</h1>
         <section id="hero">
             <a href="https://www.pexels.com/photo/man-standing-on-top-of-mountain-2695232/">
@@ -75,13 +72,6 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><img class="weatherImage" src="" alt=""></td>
-                        <td><img class="weatherImage" src="" alt=""></td>
-                        <td><img class="weatherImage" src="" alt=""></td>
-                        <td><img class="weatherImage" src="" alt=""></td>
-                        <td><img class="weatherImage" src="" alt=""></td>
-                    </tr>
-                    <tr>
                         <td id="temp1"></td>
                         <td id="temp2"></td>
                         <td id="temp3"></td>
@@ -90,6 +80,11 @@
                     </tr>
                 </tbody>
             </table>
+        </section>
+        <section id="upcoming">
+            <h4>Upcoming Events:</h4>
+            <ul id="events">
+            </ul>
         </section>
         <section id="article">
             <h3>Best Trails Around Fish Haven</h3>
@@ -102,7 +97,7 @@
             <p>CALL: 208-555-5555</p>
             <p>EMAIL: thehikingguide@gmail.com</p>
             <a href="#"><p>GIVE FEEDBACK</p></a>
-            <img src="images/fishmap.png" alt="map of Fish Haven, ID">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11636.88926849076!2d-111.40486806280614!3d42.03803991735524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875415e9bdab006f%3A0xc1864ed86dd2b0e4!2sFish%20Haven%2C%20ID%2083287!5e1!3m2!1sen!2sus!4v1583853367407!5m2!1sen!2sus" width="600" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </section>
     </main>
     <footer>
@@ -114,5 +109,6 @@
     <script src="scripts/webfontloader.js"></script>
     <script src="scripts/preston.js"></script>
     <script src="scripts/apiFish.js"></script>
+    <script src="scripts/towndata.js"></script>
 </body>
 </html>

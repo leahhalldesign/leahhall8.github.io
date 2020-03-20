@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles/large.css">
     <title>Preston</title>
 </head>
-<body>
+<body onload="getEvents('Preston')">
     <header>
         <a href="index.html"><img src="images/hikingguidelogo.png" alt="The Hiking Guide Logo"></a>
         <h1>The Hiking Guide</h1>
@@ -75,13 +75,6 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><img class="weatherImage" src="" alt=""></td>
-                        <td><img class="weatherImage" src="" alt=""></td>
-                        <td><img class="weatherImage" src="" alt=""></td>
-                        <td><img class="weatherImage" src="" alt=""></td>
-                        <td><img class="weatherImage" src="" alt=""></td>
-                    </tr>
-                    <tr>
                         <td id="temp1"></td>
                         <td id="temp2"></td>
                         <td id="temp3"></td>
@@ -90,6 +83,11 @@
                     </tr>
                 </tbody>
             </table>
+        </section>
+        <section id="upcoming">
+            <h4>Upcoming Events:</h4>
+            <ul id="events">
+            </ul>
         </section>
         <section id="article">
             <h3>Best Trails Around Preston</h3>
@@ -102,7 +100,7 @@
             <p>CALL: 208-555-5555</p>
             <p>EMAIL: thehikingguide@gmail.com</p>
             <a href="#"><p>GIVE FEEDBACK</p></a>
-            <img src="images/prestonmap.png" alt="map of Preston, ID">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54766.67601801872!2d-111.91534435880683!3d42.09974162641247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e1!3m2!1sen!2sus!4v1581204904345!5m2!1sen!2sus" width="600" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </section>
     </main>
     <footer>
@@ -114,5 +112,6 @@
     <script src="scripts/webfontloader.js"></script>
     <script src="scripts/preston.js"></script>
     <script src="scripts/api.js"></script>
+    <script src="scripts/towndata.js"></script>
 </body>
 </html>
