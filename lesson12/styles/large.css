@@ -1,0 +1,72 @@
+@media only screen and (min-width: 1200px) {
+    ul.flex {
+        flex-direction: row; 
+        justify-content: space-evenly;
+    }
+    #hero article {
+        left: 10%;
+    }
+    #article img {
+        margin-top: -190px;
+        width: 325px;
+    }
+    #contact p, #contact a, #contact h4 {
+        margin-left: 70%;
+    }
+    .fig {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .towns article, .towns img {
+        width: 350px;
+    }
+    .towns img {
+        height: 250px;
+        padding: 0;
+    }
+    #fishHavenImage {
+        margin-top: 26px;
+    }
+    #prestonImage {
+        margin-top: 0;
+    }
+    #sodaSpringsImage {
+        margin: 0;
+    }
+    .towns {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .towns article {
+        text-align: center;
+        padding: 0;
+    }
+    #prestonMotto {
+        width: 100%;
+    }
+    #sodaSpringsMotto {
+        width: 100%;
+    }
+    .towns img {
+        box-shadow: none;
+    }
+    #prestonImage {
+        position: static;
+    }
+    #sodaSpringsImage {
+        position: static;
+    }
+    #fishHavenImage {
+        position: static;
+    }
+    .towns img {
+        padding-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    #hero article {
+        left: 25%;
+    }
+}
