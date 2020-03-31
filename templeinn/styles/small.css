@@ -1,4 +1,8 @@
-html {
+body {
+    height: 100%;
+    position: relative;
+}
+header, main, footer h3, footer p {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -14,7 +18,7 @@ h4, p, a {
 header h1 {
     text-align: left;
 }
-header h4 {
+h4 {
     font-weight: 500;
 }
 header nav a {
@@ -39,7 +43,8 @@ header a:visited {
 }
 header a:hover {
     color: #000000;
-    text-decoration: underline;
+    border-bottom: 3px solid #000;
+    padding-bottom: 5px;
     font-size: 1.1em;
 }
 header a:active {
@@ -65,4 +70,42 @@ input {
 }
 input#checkIn, input#checkOut  {
     width: 150px;
+}
+.hero {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.amenities {
+    background-color: rgba(211, 234, 245, 0.8);
+}
+.summary {
+    width: 500px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+iframe {
+    display: none;
+}
+#copy {
+    text-align: right;
+}
+footer {
+    background-color: #003468;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+footer h3, footer p {
+    color: white;
+    line-height: 1.5em;
+}
+footer section {
+    margin-bottom: -20px;
+}
+#temple {
+    postion: absolute;
+    margin-left: 50%;
+    margin-top: -300px;
 }

@@ -8,4 +8,28 @@
         flex-direction: row;
         justify-content: space-evenly;
     }
+    .amenities {
+        width: 500px;
+        height: 350px;
+        padding-top: 80px;
+        padding-left: 30px;
+        position: absolute;
+        margin-top: -440px;
+    }
+    .hero {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    iframe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #figcaption {
+        text-align: center;
+        font-weight: 200i;
+    }
+    #temple {
+        margin-bottom: 300px;
+    }
 }
