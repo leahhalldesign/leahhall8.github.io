@@ -78,7 +78,7 @@ input#checkIn, input#checkOut  {
     opacity: 0.8;
 }
 .amenities {
-    background-color: rgba(211, 234, 245, 0.8);
+    background-color: rgba(211, 234, 245, 0.6);
 }
 .summary {
     width: 500px;
