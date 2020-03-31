@@ -1,0 +1,60 @@
+html {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1, h2, h3 {
+    font-family: 'Gotu', sans-serif;
+    text-transform: uppercase;
+    color: #797C80;
+}
+h4, p, a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+header h1 {
+    text-align: left;
+}
+header h4 {
+    font-weight: 500;
+}
+header nav a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #797C80;
+}
+ul {
+    list-style: none;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+header a:link {
+    color: #797C80;
+}
+header a:visited {
+    color: #797C80;
+}
+header a:hover {
+    color: #000000;
+    text-decoration: underline;
+    font-size: 1.1em;
+}
+header a:active {
+    color: #D3EAF5;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(https://leahhall8.github.io/templeinn/images/calendar.jpg) no-repeat;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+}

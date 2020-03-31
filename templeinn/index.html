@@ -4,25 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Temple Inn & Suites</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
     <header>
         <h1>The Temple Inn & Suites</h1>
-        <h4>Bringing you closer to the Temple</h4>
         <nav>
-            <ul>
+            <ul class="nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="temple.html">Temple</a></li>
-                <li><a href="reservation.html"></a>Reservation</a></li>
-                <li><a href="services.html"></a>Services</a></li>
-                <li><a href="contact.html"></a>Contact</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <hr>
     <main>
         <section>
-            <p>Check In</p>
-            <p>Check Out</p>
+            <form>
+                <div>
+                    <label for="checkIn">Check In: </label>
+                    <input type="date" id="checkIn" name="checkIn" required>
+                </div>
+                <div>
+                    <label for="checkOut">Check Out: </label>
+                    <input type="date" id="checkOut" name="checkOut" required>
+                </div>
+                <div>
+                    <label for="adults">Adults: </label>
+                    <input type="list" id="adults" name="adults" list="datalist" required>
+                    <datalist id="datalist">
+                        <option value="1" selected></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                    </datalist>
+                </div>
+                <div>
+                    <label for="children">Children: </label>
+                    <input type="list" id="children" name="children" list="datalist" required>
+                    <datalist id="datalist">
+                        <option value="0" selected></option>
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                    </datalist>
+                </div>
+                <div>
+                    <a href="reservation.html"><input type="submit" value="Check Rates"></a>
+                </div>
+            </form>
             <a href="reservation.html">Check Rates</a>
         </section>
         <img src="" alt="hero image">
@@ -44,5 +80,6 @@
     <footer>
         <p>&copy; The Hiking Guide | <span id="current-date"></span></p>
     </footer>
+    <script src="scripts/webfontloader.js"></script>
 </body>
 </html>
