@@ -58,7 +58,10 @@ form {
     display: flex;
     flex-direction: column;
 }
-input[type="date"]::-webkit-calendar-picker-indicator {
+form div {
+    padding-bottom: 10px;
+}
+#home input[type="date"]::-webkit-calendar-picker-indicator {
     color: rgba(0, 0, 0, 0);
     opacity: 1;
     display: block;
@@ -67,7 +70,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     height: 20px;
     border-width: thin;
 }
-input {
+#home input {
     border-radius: 10px;
     width: 50px;
     text-align: center;
@@ -162,3 +165,25 @@ main h1 {
 .button:active {
     color: #797C80;
 }
+#address {
+    color: #003468;
+    line-height: .1em;
+}
+input#fullName{
+    width: 100%;
+}
+input#email{
+    width: 100%;
+}
+input#phoneNumber{
+    width: 100%;
+}
+input#message{
+    width: 100%;
+    padding-bottom: 200px;
+}
+#figcaption, #address {
+    text-align: left;
+    font-weight: 200i;
+}
+
