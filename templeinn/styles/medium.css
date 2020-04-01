@@ -1,4 +1,7 @@
 @media only screen and (min-width: 700px) {
+    header h1 {
+        text-align: left;
+    }
     .nav{
         flex-direction: row;
         justify-content: space-evenly;
@@ -7,6 +10,12 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+    }
+    #copy {
+        text-align: right;
+    }
+    footer section {
+        margin-bottom: -20px;
     }
     .amenities {
         width: 500px;
@@ -31,5 +40,17 @@
     }
     #temple {
         margin-bottom: 300px;
+    }
+    header a:hover {
+        border-bottom: 3px solid #003468;
+    }
+    .flex {
+        display: flex;
+        flex-direction: row;
+    }
+    .card {
+        margin-right: 0px;
+        margin-bottom: 80px;
+        max-height: 425px;
     }
 }

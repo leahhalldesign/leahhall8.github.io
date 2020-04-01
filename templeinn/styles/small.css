@@ -1,3 +1,6 @@
+header, main {
+    padding: 10px;
+}
 body {
     height: 100%;
     position: relative;
@@ -11,12 +14,13 @@ h1, h2, h3 {
     text-transform: uppercase;
     color: #797C80;
 }
-h4, p, a {
+h4, p, a, li {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+    color: #797C80;
 }
 header h1 {
-    text-align: left;
+    text-align: center;
 }
 h4 {
     font-weight: 500;
@@ -37,13 +41,13 @@ ul {
 }
 header a:link {
     color: #797C80;
+    line-height: 1.5em;
 }
 header a:visited {
     color: #797C80;
 }
 header a:hover {
-    color: #000000;
-    border-bottom: 3px solid #000;
+    color: #003468;
     padding-bottom: 5px;
     font-size: 1.1em;
 }
@@ -88,21 +92,19 @@ input#checkIn, input#checkOut  {
 iframe {
     display: none;
 }
-#copy {
-    text-align: right;
-}
 footer {
     background-color: #003468;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-top: 50px;
 }
+footer section {
+    margin-bottom: 20px;
+}
 footer h3, footer p {
     color: white;
     line-height: 1.5em;
-}
-footer section {
-    margin-bottom: -20px;
+    padding-left: 20px;
 }
 #temple {
     postion: absolute;
@@ -111,4 +113,52 @@ footer section {
 }
 main h1 {
     text-align: center;
+    background-color: #F2F2F2;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}    
+#services li, #amenities li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 2em;
+    width: 95%;
+    list-style-type: disc;
+}
+.card img {
+    width: 400px;
+}
+.card h3, .card p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.card p {
+    margin-bottom: 40px;
+}
+.card {
+    width: 400px;
+    background-color: #F2F2F2;
+    box-shadow: 0px 0px 10px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    text-decoration: none;
+    background-color: #003468;
+    margin-left: 15px;
+    padding: 10px;
+    color: white;
+}
+.button:link {
+    color: white;
+}
+.button:visited {
+    color: white;
+}
+.button:hover {
+    background-color: #205891;
+    box-shadow: 0px 0px 10px;
+}
+.button:active {
+    color: #797C80;
 }
