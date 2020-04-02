@@ -186,4 +186,38 @@ input#message{
     text-align: left;
     font-weight: 200i;
 }
+.packages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.packages img {
+    width: 350px;
+}
+#silver, #gold, #platinum {
+    position: relative;
+    margin-bottom: 10px;
+}
+.para {
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+#platinum .para {
+    left: 50px;
+}
+#platinum .para a.button {
+    margin-left: 75px;
+}
+.price {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.para h2, .para p {
+    color: black;
+    text-align: center;
+}
+.packages a.button {
+    margin-left: 45px;
+}
 

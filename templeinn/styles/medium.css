@@ -57,4 +57,16 @@
         flex-direction: column;
         margin-left: 400px !important;
     }
+    .image {
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap; 
+        align-items: unset;
+    }
+    .packages {
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap; 
+        align-items: unset;
+    }
 }
