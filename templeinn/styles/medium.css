@@ -94,4 +94,13 @@
         margin-left: auto;
         margin-right: auto;
     }
+    #reserve {
+        max-width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+    #reserve img {
+        margin-right: 20px;
+    }
 }
