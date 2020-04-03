@@ -78,5 +78,20 @@
         flex-direction: row;
         justify-content: center;
     }
-    
+    .standard img, .superior img, .exec img {
+        width: 60%;
+        margin-right: 5%;
+    }
+    .standard, .superior, .exec {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: center;
+        align-items: center;
+    }
+    form {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

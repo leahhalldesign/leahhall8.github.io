@@ -14,7 +14,7 @@ h1, h2, h3 {
     text-transform: uppercase;
     color: #797C80;
 }
-h4, p, a, li {
+h4, p, a, li, form {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     color: #797C80;
@@ -233,5 +233,28 @@ input#message{
 .foodpic img {
     width: 300px;
     margin-bottom: 50px;
+}
+.standard img, .superior img, .exec img {
+    width: 100%;
+}
+.standard, .superior, .exec {
+    display: flex;
+    flex-direction: column;   
+    text-align: center;
+    align-items: center;
+}
+.superior {
+    background-color: #F2F2F2;
+    padding: 10px;
+    margin: 10px 0px;
+}
+strike {
+    font-weight: 400;
+}
+form {
+    color: #003468;
+}
+abbr {
+    color: #003468;
 }
 

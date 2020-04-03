@@ -2,4 +2,8 @@
     .up {
         margin-top: -100px;
     }
+    .standard img, .superior img, .exec img {
+        width: 70%;
+        margin-right: 7%;
+    }
 }
