@@ -321,3 +321,25 @@ input[type=submit]:active {
 .location {
     align-items: center;
 }
+#mish {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10px;
+}
+#mish img {
+    width: 400px;
+}
+#mish h3 {
+    margin-top: -175px;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+.flex img {
+    width: 350px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}

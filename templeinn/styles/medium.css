@@ -103,4 +103,16 @@
     .card p {
         margin-bottom: 70px;
     }
+    #mish p {
+        margin-bottom: 30px;
+    }
+    #mish {
+        margin-left: 0;
+    }
+    .flex {
+        flex-direction: row;
+    }
+    .flex img {
+        width: 500px;
+    }
 }
