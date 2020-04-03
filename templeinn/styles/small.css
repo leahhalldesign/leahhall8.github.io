@@ -128,29 +128,54 @@ main h1 {
     list-style-type: disc;
 }
 .card img {
-    width: 400px;
+    width: 100%;
+    max-width: 800px;
 }
 .card h3, .card p {
     padding-left: 15px;
     padding-right: 15px;
 }
+.card h3 {
+    color: white;
+    margin-top: -140px;
+}
 .card p {
-    margin-bottom: 40px;
+    color: white;
+    margin-bottom: 20px;
 }
 .card {
-    width: 400px;
-    background-color: #F2F2F2;
-    box-shadow: 0px 0px 10px;
-    padding-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.button1 {
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    color: #003468;
+}
+.button1:link {
+    color: #003468;
+}
+.button1:visited {
+    color: #003468;
+}
+.button1:hover {
+    background-color: #ffffff86;
+}
+.button1:active {
+    color: #797C80;
 }
 .button {
     text-decoration: none;
     background-color: #003468;
-    margin-left: 15px;
     padding: 10px;
     color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
 }
 .button:link {
     color: white;

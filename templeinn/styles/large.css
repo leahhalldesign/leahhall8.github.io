@@ -1,7 +1,4 @@
 @media only screen and (min-width: 1200px) {
-    .up {
-        margin-top: -100px;
-    }
     .standard img, .superior img, .exec img {
         width: 70%;
         margin-right: 7%;

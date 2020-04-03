@@ -44,14 +44,8 @@
     header a:hover {
         border-bottom: 3px solid #003468;
     }
-    .flex {
-        display: flex;
-        flex-direction: row;
-    }
-    .card {
-        margin-right: 0px;
-        margin-bottom: 80px;
-        max-height: 425px;
+    .flex img{
+        max-width: 800px;
     }
     #contact form {
         flex-direction: column;
@@ -102,5 +96,11 @@
     }
     #reserve img {
         margin-right: 20px;
+    }
+    .card h3 {
+        margin-top: -180px;
+    }
+    .card p {
+        margin-bottom: 70px;
     }
 }
