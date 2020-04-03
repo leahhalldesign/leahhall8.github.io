@@ -110,7 +110,7 @@ footer h3, footer p {
     padding-left: 20px;
 }
 #temple {
-    postion: absolute;
+    position: absolute;
     margin-left: 50%;
     margin-top: -300px;
 }
@@ -219,5 +219,19 @@ input#message{
 }
 .packages a.button {
     margin-left: 45px;
+}
+.title {
+    text-align: center;
+    background-color: #F2F2F2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.food, .foodpic {
+    display: flex;
+    flex-direction: column;
+}
+.foodpic img {
+    width: 300px;
+    margin-bottom: 50px;
 }
 
