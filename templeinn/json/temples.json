@@ -1,0 +1,85 @@
+
+    [  
+        {
+            "TempleName": "Vancouver British Columbia Temple",
+            "StreetLine": "20370 82nd Ave",
+            "City": "Langley",
+            "State": "BC",
+            "Country": "Canada",
+            "Zip": "V2Y 2A9",
+            "Telephone": "(1) 604-513-5933",
+            "Email": "vancouver@churchofjesuschrist.org",
+            "Services": [
+                "No clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "History": [
+                {
+                    "Date": "25 May 2006",
+                    "Milestone": "Announced"
+                },
+                {
+                    "Date": "4 August 2007",
+                    "Milestone": "Groundbreaking"
+                },
+                {
+                    "Date": "2 May 2010",
+                    "Milestone": "Dedicated"
+                }
+            ],
+            "Schedule":
+                {
+                    "Endowment": "Every hour from 6 AM - 7 PM", 
+                    "Baptism": ["6:00 AM - 9:00 PM"],
+                    "Sealing": ["6:00 AM - 9:00 PM"]
+                },
+                "Closures": [
+                    "Saturday, 4 April 2020",
+                    "Tuesday, 23"
+                ],
+                "Image": "https://assets.ldscdn.org/c4/f2/c4f2e5c0a1824e4cb833c92b921700ea9ee66cb6/vancouver_temple.jpeg"   
+        }
+        {
+            "TempleName": "Barranquilla Columbia Temple",
+            "StreetLine": "Carrera 518 #133-120",
+            "City": "Villa Campestre",
+            "State": "Barranquilla Atlantico",
+            "Country": "Columbia",
+            "Zip": "",
+            "Telephone": "(57) 5-310-0200",
+            "Email": "barranquilla@churchofjesuschrist.org",
+            "Services": [
+                "Clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "History": [
+                {
+                    "Date": "1 October 2011",
+                    "Milestone": "Announced"
+                },
+                {
+                    "Date": "20 February 2016",
+                    "Milestone": "Groundbreaking"
+                },
+                {
+                    "Date": "9 December 2018",
+                    "Milestone": "Dedicated"
+                }
+            ],
+            "Schedule":
+                {
+                    "Endowment": ["8:00 AM","9:00 AM","11:00 AM","12:00 PM"], 
+                    "Baptism": ["9:00 AM - 12:00 PM (Appointments Only)"],
+                    "Sealing": ["9:00 AM - 12:00 PM"]
+                },
+                "Closures": [
+                    "T",
+                    "Tuesday, 23"
+                ],
+                "Image": "https://assets.ldscdn.org/60/01/600152c4cf0387c4028f66bfc0447acdef9251fe/barranquilla_columbia_temple_exterior.jpeg"
+        }
+    ]

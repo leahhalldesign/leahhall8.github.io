@@ -54,45 +54,73 @@ header a:hover {
 header a:active {
     color: #D3EAF5;
 }
-form {
+#reservation {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 form div {
     padding-bottom: 10px;
 }
-#home input[type="date"]::-webkit-calendar-picker-indicator {
+input[type="date"]::-webkit-calendar-picker-indicator {
     color: rgba(0, 0, 0, 0);
     opacity: 1;
-    display: block;
     background: url(https://leahhall8.github.io/templeinn/images/calendar.jpg) no-repeat;
-    width: 20px;
-    height: 20px;
-    border-width: thin;
-}
-#home input {
-    border-radius: 10px;
-    width: 50px;
-    text-align: center;
+    width: 10px;
+    height: 12px;
 }
 input#checkIn, input#checkOut  {
-    width: 150px;
+    width: 165px;
+    margin-right: 10px;
+}
+input#adults {
+    margin-right: 10px;
+}
+#reservation section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 10px;
 }
 .hero {
     width: 100%;
-    height: 300px;
     object-fit: cover;
-    opacity: 0.8;
+    max-height: 300px;
+    margin-bottom: 15px;
+}
+.featured {
+    background-color: #F2F2F2;
+    padding: 15px;
+}
+.featured img {
+    width: 100%;
 }
 .amenities {
-    background-color: rgba(211, 234, 245, 0.6);
+    width: 290px;
+    height: 290px;
+    background-image: linear-gradient(293deg,#927092 0%,#927092 50%,#b195b1 50%,#b195b1 100%);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
-.summary {
-    width: 500px;
-    padding-left: 15px;
+.amenities h2, .amenities p {
+    color: white;
+}
+.amenities p {
+    line-height: .5em;
+}
+.amenities h2 {
+    margin-top: 30px;
+}
+.summary img {
+    width: 100%;
     padding-top: 10px;
 }
-iframe {
+iframe, #figcaption {
     display: none;
 }
 footer {
@@ -108,11 +136,6 @@ footer h3, footer p {
     color: white;
     line-height: 1.5em;
     padding-left: 20px;
-}
-#temple {
-    position: absolute;
-    margin-left: 50%;
-    margin-top: -300px;
 }
 main h1 {
     text-align: center;
@@ -343,3 +366,4 @@ input[type=submit]:active {
     margin-left: auto;
     margin-right: auto;
 }
+
