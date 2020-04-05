@@ -38,9 +38,9 @@
     }
     .summary {
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        flex-direction: column;
         margin-bottom: 50px;
+        align-items: center;
     }
     .summary img {
         max-width: 500px;

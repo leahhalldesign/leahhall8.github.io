@@ -11,12 +11,15 @@
 </head>
 <body>
     <header>
-        <h1>The Temple Inn & Suites</h1>
+        <div>
+            <a href="index.html"><img src="images/logo.png" alt="Temple Inn & Suites logo"></a>
+            <h1>The Temple Inn & Suites</h1>
+        </div>
         <nav>
             <ul class="nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="temple.html">Temple</a></li>
-                <li><a href="reservation.html">Reservation</a></li>
+                <li class="selected"><a href="reservation.html">Reservation</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -26,6 +29,26 @@
     <main>
         <h1>Reserve Your Stay</h1>
         <div id="reserve">
+            <form id="reservation">
+                <div>
+                    <label for="checkIn">Check In: </label>
+                    <input type="date" id="checkIn" name="checkIn" required>
+                </div>
+                <div>
+                    <label for="checkOut">Check Out: </label>
+                    <input type="date" id="checkOut" name="checkOut" required>
+                </div>
+            <section>
+                <div>
+                    <label for="adults">Adults:  </label>
+                    <input type="number" id="adults" name="adults" min="1" max="4" value="1" required>
+                </div>
+                <div>
+                    <label for="children">Children: </label>
+                    <input type="number" id="children" name="children" min="0" max="4" value="0" required>
+                </div>
+            </section> 
+        </form>
             <form class="location">    
                 <div>
                     <label for="location">Location: </label>
@@ -102,6 +125,10 @@
                 <div>
                     <label for="phoneNumber">Phone Number: </label>
                     <input type="tel" id="phoneNumber" name="phoneNumber" >
+                </div>
+                <div>
+                    <label for="state">Home State / Country: </label>
+                    <input type="textarea" id="state" name="state">
                 </div>
                 <div>
                     <label for="comments">Special Accommodations/Comments: </label>

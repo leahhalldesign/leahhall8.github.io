@@ -18,4 +18,9 @@
     .templecard div {
         width: 500px;
     }
+    .summary {
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+    }
 }
