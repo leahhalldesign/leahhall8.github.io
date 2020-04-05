@@ -1,9 +1,21 @@
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
     .standard img, .superior img, .exec img {
         width: 70%;
         margin-right: 7%;
     }
     .superior {
         padding: 20px;
+    }
+    .templecard {
+        flex-direction: row;
+        align-items: unset;
+        margin-left: 0px;
+        width: 100%;
+        justify-content: space-evenly;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .templecard div {
+        width: 500px;
     }
 }
