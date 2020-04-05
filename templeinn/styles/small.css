@@ -424,3 +424,6 @@ li.selected a {
     color: #003468;
     font-weight: 900px;
 }
+footer a {
+    color: white;
+}
