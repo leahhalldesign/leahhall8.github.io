@@ -17,9 +17,20 @@ header h1 a {
     text-decoration: none;
     color: #FAEBD7;
 }
-header ul li a {
+header ul li a:link {
     text-decoration: none;
     color: #FAEBD7;
+}
+header ul li a:visited {
+    color: #FAEBD7;
+}
+header ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+header ul li a:active {
+    color: #DEB887;
+    text-decoration: none;
 }
 header ul li {
     list-style-type: none;
@@ -48,9 +59,20 @@ main article h2 {
     margin: 0;
     padding-bottom: 40px;
 }
-main article h2 a {
+main article h2 a:link {
     text-decoration: none;
     color: #000000;
+}
+main article h2 a:visited {
+    color: #000000;
+}
+main article h2 a:hover {
+    color: #6495ED;
+    text-decoration: underline;
+}
+main article h2 a:active {
+    color: #DEB887;
+    text-decoration: none;
 }
 main article img {
     width: 150px;
@@ -65,7 +87,17 @@ main article section {
     padding-right: 30px;
     padding-bottom: 30px;
 }
-main article p a {
+main article p a:link {
     color: #6495ED;
+    text-decoration: none;
+}
+main article p a:visited {
+    color: #6495ED;
+}
+main article p a:hover {
+    text-decoration: underline;
+}
+main article p a:active {
+    color: #DEB887;
     text-decoration: none;
 }
