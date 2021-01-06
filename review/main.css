@@ -17,6 +17,9 @@ header h1 a {
     text-decoration: none;
     color: #FAEBD7;
 }
+header ul {
+    padding-left: 0;
+}
 header ul li a:link {
     text-decoration: none;
     color: #FAEBD7;
@@ -101,3 +104,22 @@ main article p a:active {
     color: #DEB887;
     text-decoration: none;
 }
+
+@media screen and (min-width: 750px) {
+    header {
+        height: 100%; 
+        width: 20%;
+        position: fixed; 
+        z-index: 1; 
+        top: 0; 
+        left: 0;
+        overflow-x: hidden;
+        padding-top: 50px;
+    }
+    main {
+        margin-left: 27%;
+    }
+    main article {
+        max-width: 900px;
+    }
+}    
