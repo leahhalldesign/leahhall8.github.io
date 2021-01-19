@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+//colors
+$blue: #6495ED;
+$mainlink-color: #FAEBD7;
+$activelink-color: #DEB887;
+
+//fonts
+$header-font: 'Lora', serif;
+$body-font: Helvetica, Arial, sans-serif;
+
+//size
+$basic-size: 30px;
+
+//mixins
+@mixin basic-link {
+    text-decoration: none;
+    color: $mainlink-color;
+}
+
+h1, h2, h3, h4 {
+    font-family: $header-font;
+    font-weight: 500;
+}
+header {
+    background-color:$blue;
+    text-align: right;
+    padding: $basic-size;
+
+    @media screen and (min-width: 750px) {
+            height: 100%; 
+            width: 20%;
+            position: fixed; 
+            z-index: 1; 
+            top: 0; 
+            left: 0;
+            overflow-x: hidden;
+            padding-top: 50px;
+        }
+
+    h1 {
+        margin: 0;
+        margin-bottom: 20px;
+        font-family: $header-font;
+
+        a {
+            @include basic-link;
+        }
+    }
+    ul {
+        padding-left: 0;
+
+        li {
+            list-style-type: none;
+            padding-bottom: 10px;
+            font-family: $body-font;
+
+            a:link {
+                @include basic-link;
+            }
+            a:visited {
+                color:$mainlink-color;
+            }
+            a:hover {
+                color: #ffffff;
+                text-decoration: underline;
+            }
+            a:active {
+                color: $activelink-color;
+                text-decoration: none;
+            }
+        }
+    }
+}
+body {
+    background-color: $mainlink-color; 
+    margin: 0;
+}
+main {
+    @media screen and (min-width: 750px) {
+        margin-left: 27%;
+    }
+
+    article {
+    background-color: #ffffff;
+    margin: 40px 20px;
+    font-family: $body-font;
+    font-size: 15px;
+    box-shadow: 3px 3px 5px #aaaaaa;
+
+        @media screen and (min-width: 750px) {
+            max-width: 900px;
+        }
+
+        div {
+            color: #808080;
+            padding-left: $basic-size;
+            padding-top: $basic-size;
+            padding-bottom: 5px;
+            font-size: 15px;
+        }
+        h2 {
+            margin: 0;
+            padding-bottom: 40px;
+
+            a:link {
+                text-decoration: none;
+                color: #000000;
+            }
+            a:visited {
+                color: #000000;
+            }
+            a:hover {
+                color:$blue;
+                text-decoration: underline;
+            }
+            a:active {
+                color: $activelink-color;
+                text-decoration: none;
+            }
+        }
+        img {
+            width: 150px;
+        }
+        figure {
+            margin-left: auto;
+            margin-right: auto;
+            width: 150px;
+        }
+        section {
+            padding-left: $basic-size;
+            padding-right: $basic-size;
+            padding-bottom: $basic-size;
+        }
+        p {
+            a:link {
+                color: $blue;
+                text-decoration: none;
+            }
+            a:visited {
+                color: $blue;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            a:active {
+                color: $activelink-color;
+                text-decoration: none;
+            }
+        }
+    }
+}
