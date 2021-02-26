@@ -44,4 +44,34 @@ html {
 	float: right;
 }
 
+@media only screen and (min-width: 700px) {
+	#zen-summary {
+		background-position: bottom;
+		height: 200px;
+	}
+	#zen-summary p {
+		padding-left: 0;
+	}
+	#zen-preamble {
+		background-position: bottom;
+		height: 350px;
+	}
+	#zen-preamble p {
+		padding-right: 0;
+	}
+	#zen-explanation {
+		background-size: 100% 300px;
+		height: 520px;
+	}
+	#zen-participation {
+		background: url(images/planet.png) no-repeat bottom;
+		background-size: 100px;
+		height: 400px;
+	}
+	#zen-benefits {
+		background: url(images/spaceship.png) no-repeat bottom;
+		background-size: 100px;
+		height: 250px;
+	}
+}
 
