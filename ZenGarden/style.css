@@ -1,0 +1,47 @@
+html {
+	margin: 0;
+}
+#zen-intro h1 {
+	text-align: center;
+	padding-top: 70px;
+	color: white;
+	background: url(images/galaxy.jpg) no-repeat left;
+	background-size: cover; 
+	height: 100px;
+	margin: 0;
+}
+#zen-summary {
+	background: url(images/rocket.png) no-repeat left;
+	background-size: 100px;
+}
+#zen-summary p {
+	padding-left: 110px;
+}
+#zen-preamble {
+	background: url(images/shootingstar.png) no-repeat right;
+	background-size: 100px;
+}
+#zen-preamble p {
+	padding-right: 110px;
+}
+#zen-explanation {
+	background: url(images/galaxy.jpg) no-repeat bottom;
+	background-size: contain;
+	height: 600px;
+}
+#zen-requirements {
+	background: url(images/galaxy2.jpg) no-repeat bottom;
+	background-size: contain;
+	height: 900px;
+}
+.sidebar li {
+	list-style-type: none;
+}
+#design-archives h3 {
+	display: none;
+}
+.next {
+	float: right;
+}
+
+
