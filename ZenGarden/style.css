@@ -1,6 +1,9 @@
 html {
 	margin: 0;
 }
+body {
+	margin: 10px;
+}
 #zen-intro h1 {
 	text-align: center;
 	padding-top: 70px;
@@ -45,6 +48,17 @@ html {
 }
 
 @media only screen and (min-width: 700px) {
+	.page-wrapper {
+		display: grid;
+		grid-template-columns: auto 300px;
+		grid-column-gap: 20px;
+	}
+	#zen-intro {
+		grid-column: 1/2;
+	}
+	#zen-supporting {
+		grid-column: 1/2;
+	}
 	#zen-summary {
 		background-position: bottom;
 		height: 200px;
@@ -73,5 +87,17 @@ html {
 		background-size: 100px;
 		height: 250px;
 	}
+	aside.sidebar {
+		grid-column: 2/3;
+		height: 100%;
+		position: fixed;
+		top: 0; right: 0;
+	}
 }
 
+@media only screen and (min-width: 1090px) {
+	#zen-requirements {
+		background-size: 500px;
+		height: 750px;
+	}
+}
