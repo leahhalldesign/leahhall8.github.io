@@ -1031,6 +1031,10 @@ img {
   border: 0;
 }
 
+body {
+  margin: 0;
+}
+
 .site-banner {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -1041,16 +1045,20 @@ img {
   background-color: #020202;
   grid-column: 1/2;
   grid-row: 1/2;
+  padding: 15px 10px;
+  height: 60px;
 }
 
 .site-banner__left a {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .site-banner__right {
   background-color: #056cb6;
   grid-column: 2/7;
   grid-row: 1/2;
+  padding-top: 10px;
+  padding-right: 20px;
 }
 
 .site-banner__right a {
@@ -1075,19 +1083,19 @@ h1 {
 
 .byui p {
   margin: 0;
-  padding: 15px;
+  padding: 20px;
   font-family: "BYUI Open Sans";
   font-weight: 300;
 }
 
 #hero {
-  margin: 10px;
-  width: 95%;
+  margin: 20px;
+  width: 92%;
 }
 
 .interest-box {
-  width: 95%;
-  margin: 10px;
+  width: 92%;
+  margin: 20px;
 }
 
 .interest-box img {
@@ -1117,8 +1125,8 @@ h1 {
   background-color: #eaeaea;
   border: 1px solid #727272;
   padding: 10px;
-  margin: 10px;
-  width: 95%;
+  margin: 20px;
+  width: 92%;
 }
 
 .dropdown a {
@@ -1141,9 +1149,9 @@ aside h2 {
 }
 
 .resources {
-  width: 95%;
+  width: 92%;
   border: 1px solid #727272;
-  margin: 10px;
+  margin: 20px;
   background-color: #eaeaea;
 }
 
@@ -1165,25 +1173,69 @@ aside h2 {
   background-color: #056cb6;
   margin: 0;
   padding: 10px;
+  margin-bottom: -10px;
 }
 
 .important-dates {
-  width: 95%;
-  margin: 10px;
+  width: 92%;
+  margin: 20px;
 }
 
-.event {
+.events p {
   font-family: "BYUI Open Sans";
   font-size: 0.9rem;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0px;
 }
 
-.event p span {
-  font-weight: bold;
+.col {
+  flex: 0 0 8.33%;
 }
 
-.event p {
-  padding: 10px;
+.col3 {
+  flex: 0 0 25%;
+  font-weight: 700;
+}
+
+.col8 {
+  flex: 0 0 66.66%;
+}
+
+.events p {
   border-bottom: 1px solid #727272;
+}
+
+.news {
+  margin: 20px;
+}
+
+.news-box {
+  padding: 30px 0px;
+}
+
+.date {
+  color: #020202;
+  font-size: 0.75rem;
+  font-family: "BYUI Open Sans";
+}
+
+.headline {
+  color: #056cb6;
+  font-family: "BYUI Open Sans";
+}
+
+button {
+  background-color: #056cb6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  float: right;
+}
+
+footer {
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
