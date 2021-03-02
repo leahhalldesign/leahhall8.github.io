@@ -71,14 +71,18 @@ h1 {
   font-family: "BYUI Open Sans";
   font-weight: 300;
 }
+#hero {
+  margin: 10px;
+  width: 95%;
+}
 .interest-box {
-  width: 100%;
-  border: 1px solid $dark-gray;
+  width: 95%;
   margin: 10px;
 }
 .interest-box img{
   border: 1px solid $dark-gray;
   width: 100%;
+  margin-bottom: -5px;
 }
 .interest-box a {
   font-family: "BYUI Open Sans";
@@ -86,6 +90,7 @@ h1 {
 }
 .box-type {
   padding: 10px;
+  border: 1px solid $dark-gray;
 }
 .arrow {
   float: right;
@@ -93,3 +98,63 @@ h1 {
   font-size: 2rem;
   margin-top: -20px;
 }
+.dropdown {
+  background-color: $light-gray;
+  border: 1px solid $dark-gray;
+  padding: 10px;
+  margin: 10px;
+  width: 95%;
+}
+.dropdown a {
+  color: $body-font;
+}
+.down-arrow {
+  float: right;
+}
+aside h2 {
+  color: white;
+  font-family: "BYUI Open Sans";
+}
+.resources h2 {
+  background-color: $dark-gray;
+  margin: 0;
+  padding: 10px;
+}
+.resources {
+  width: 95%;
+  border: 1px solid $dark-gray;
+  margin: 10px;
+  background-color: $light-gray;
+}
+.resources a {
+  font-family: "BYUI Open Sans";
+  color: $link-blue;
+}
+.box-type2 {
+  padding: 10px;
+  border-bottom: 1px solid $dark-gray;
+}
+.box-bottom {
+  padding: 10px;
+}
+.important-dates h2 {
+  background-color: $byui-blue;
+  margin: 0;
+  padding: 10px;
+}
+.important-dates {
+  width: 95%;
+  margin: 10px;
+}
+.event {
+  font-family: "BYUI Open Sans";
+  font-size: .9rem;
+}
+.event p span {
+  font-weight: bold;
+}
+.event p {
+  padding: 10px;
+  border-bottom: 1px solid $dark-gray;
+}
+
