@@ -55,10 +55,10 @@ body {
   grid-row: 1/2;
   padding-top: 10px;
   padding-right: 20px;
-}
-.site-banner__right a {
-  float: right;
-  font-size: 2rem;
+  a {
+    float: right;
+    font-size: 2rem;
+  }
 }
 div a {
   color: white;
@@ -72,12 +72,12 @@ h1 {
   background-color: $light-gray;
   text-align: right;
   color: $dark-gray;
-}
-.byui p {
-  margin: 0;
-  padding: 20px;
-  font-family: "BYUI Open Sans";
-  font-weight: 300;
+  p {
+    margin: 0;
+    padding: 20px;
+    font-family: "BYUI Open Sans";
+    font-weight: 300;
+  }
 }
 main {
   margin: 10px;
@@ -89,15 +89,15 @@ main {
 .interest-box {
   width: 92%;
   margin: 10px;
-}
-.interest-box img{
-  border: 1px solid $dark-gray;
-  width: 100%;
-  margin-bottom: -5px;
-}
-.interest-box a {
-  font-family: "BYUI Open Sans";
-  color: $link-blue;
+  img{
+    border: 1px solid $dark-gray;
+    width: 100%;
+    margin-bottom: -5px;
+  }
+  a {
+    font-family: "BYUI Open Sans";
+    color: $link-blue;
+  }
 }
 .box-type {
   padding: 10px;
@@ -115,9 +115,9 @@ main {
   padding: 10px;
   margin: 10px;
   width: 92%;
-}
-.dropdown a {
-  color: $body-font;
+  a {
+    color: $body-font;
+  }
 }
 .down-arrow {
   float: right;
@@ -126,21 +126,21 @@ aside h2 {
   color: white;
   font-family: "BYUI Open Sans";
 }
-.resources h2 {
-  background-color: $dark-gray;
-  margin: 0;
-  padding: 10px;
-}
 .resources {
   width: 92%;
   border: 1px solid $dark-gray;
   margin: 10px;
   background-color: $light-gray;
-}
-.resources a {
-  font-family: "BYUI Open Sans";
-  color: $link-blue;
-}
+  h2 {
+    background-color: $dark-gray;
+    margin: 0;
+    padding: 10px;
+  }
+  a {
+    font-family: "BYUI Open Sans";
+    color: $link-blue;
+  }
+} 
 .box-type2 {
   padding: 10px;
   border-bottom: 1px solid $dark-gray;
@@ -148,15 +148,15 @@ aside h2 {
 .box-bottom {
   padding: 10px;
 }
-.important-dates h2 {
-  background-color: $byui-blue;
-  margin: 0;
-  padding: 10px;
-  margin-bottom: -10px;
-}
 .important-dates {
   width: 92%;
   margin: 10px;
+  h2 {
+    background-color: $byui-blue;
+    margin: 0;
+    padding: 10px;
+    margin-bottom: -10px;
+  }
 }
 .events p {
   font-family: "BYUI Open Sans";
@@ -164,6 +164,7 @@ aside h2 {
   display: flex;
   flex-direction: row;
   padding: 10px 0px;
+  border-bottom: 1px solid $dark-gray;
 }
 .col {
   flex: 0 0 8.33%;
@@ -174,9 +175,6 @@ aside h2 {
 }
 .col8 {
   flex: 0 0 66.66%;
-}
-.events p {
-  border-bottom: 1px solid $dark-gray;
 }
 .news {
   margin: 10px;
@@ -208,16 +206,16 @@ button {
   border: 1px solid $med-gray;
   border-radius: 10px;
   width: 95%;
-}
-.message img {
-  width: 100%;
-}
-.message div {
-  margin: 10px;
-}
-.message button {
-  float: none;
-  margin: 10px;
+  img {
+    width: 100%;
+  }
+  div {
+    margin: 10px;
+  }
+  button {
+    float: none;
+    margin: 10px;
+  }
 }
 footer {
   text-align: center;

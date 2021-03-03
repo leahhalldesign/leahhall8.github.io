@@ -1060,7 +1060,6 @@ body {
   padding-top: 10px;
   padding-right: 20px;
 }
-
 .site-banner__right a {
   float: right;
   font-size: 2rem;
@@ -1081,7 +1080,6 @@ h1 {
   text-align: right;
   color: #727272;
 }
-
 .byui p {
   margin: 0;
   padding: 20px;
@@ -1102,13 +1100,11 @@ main {
   width: 92%;
   margin: 10px;
 }
-
 .interest-box img {
   border: 1px solid #727272;
   width: 100%;
   margin-bottom: -5px;
 }
-
 .interest-box a {
   font-family: "BYUI Open Sans";
   color: #0076b6;
@@ -1133,7 +1129,6 @@ main {
   margin: 10px;
   width: 92%;
 }
-
 .dropdown a {
   color: #020202;
 }
@@ -1147,19 +1142,17 @@ aside h2 {
   font-family: "BYUI Open Sans";
 }
 
-.resources h2 {
-  background-color: #727272;
-  margin: 0;
-  padding: 10px;
-}
-
 .resources {
   width: 92%;
   border: 1px solid #727272;
   margin: 10px;
   background-color: #eaeaea;
 }
-
+.resources h2 {
+  background-color: #727272;
+  margin: 0;
+  padding: 10px;
+}
 .resources a {
   font-family: "BYUI Open Sans";
   color: #0076b6;
@@ -1174,16 +1167,15 @@ aside h2 {
   padding: 10px;
 }
 
+.important-dates {
+  width: 92%;
+  margin: 10px;
+}
 .important-dates h2 {
   background-color: #056cb6;
   margin: 0;
   padding: 10px;
   margin-bottom: -10px;
-}
-
-.important-dates {
-  width: 92%;
-  margin: 10px;
 }
 
 .events p {
@@ -1192,6 +1184,7 @@ aside h2 {
   display: flex;
   flex-direction: row;
   padding: 10px 0px;
+  border-bottom: 1px solid #727272;
 }
 
 .col {
@@ -1205,10 +1198,6 @@ aside h2 {
 
 .col8 {
   flex: 0 0 66.66%;
-}
-
-.events p {
-  border-bottom: 1px solid #727272;
 }
 
 .news {
@@ -1247,15 +1236,12 @@ button {
   border-radius: 10px;
   width: 95%;
 }
-
 .message img {
   width: 100%;
 }
-
 .message div {
   margin: 10px;
 }
-
 .message button {
   float: none;
   margin: 10px;
