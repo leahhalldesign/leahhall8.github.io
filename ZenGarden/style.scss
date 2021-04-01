@@ -1,0 +1,161 @@
+@import 'partials/background';
+@import 'partials/colors';
+@import 'partials/typography';
+
+html {
+	margin: 0;
+}
+body {
+	margin: 0px;
+	font-size: 12px;
+
+	div {
+		div {
+			padding: 10px;
+		}
+		section div {
+			padding: 10px;
+		}
+	}
+}
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: $color-5;
+	font-family: $secondary-font;
+	text-align: center;
+	margin: 0;
+	width: 100%;
+	height: 100px;
+	font-size: 0.8em;
+}
+@keyframes header {
+	0% {text-align: left;}
+	25% {text-align: center;}
+	50% {text-align: right;}
+	75% {text-align: center;}
+	100% {text-align: left;}
+  }
+#zen-intro {
+	h1 {
+		text-align: center;
+		padding-top: 70px;
+		background: url(images/galaxy.jpg) no-repeat left;
+		background-size: cover;
+		height: 100px;
+		margin: 0;
+		animation-name: header;
+  		animation-duration: 4s;
+		animation-iteration-count: infinite;
+	}
+}
+#zen-summary {
+	background: url(images/rocket.png) no-repeat left;
+	background-size: 100px;
+	p {
+		padding-left: 110px;
+	}
+}
+#zen-preamble {
+	background: url(images/shootingstar.png) no-repeat right;
+	background-size: 100px;
+	p {
+		padding-right: 110px;
+	}
+}
+#zen-explanation {
+	background: url(images/galaxy.jpg) no-repeat bottom;
+	background-size: contain;
+	height: 850px;
+}
+#zen-requirements {
+	background: url(images/galaxy2.jpg) no-repeat bottom;
+	background-size: contain;
+	height: 1350px;
+}
+.sidebar {
+	li {
+		list-style-type: none;
+	}
+}
+#design-archives {
+	h3 {
+		display: none;
+	}
+}
+.next {
+	float: right;
+}
+@media only screen and (min-width: 800px) {
+	body{
+	 	div div {
+			padding: 0;
+			margin: 10px; 
+		}
+	}
+	#zen-intro header {
+		margin: 0;
+	}
+	.page-wrapper {
+		display: grid;
+		grid-template-columns: auto 300px;
+		grid-column-gap: 50px;
+		position: relative;
+	}
+	#zen-intro {
+		text-align: center;
+		grid-column: 1/2;
+	}
+	#zen-supporting {
+		grid-column: 1/2;
+	}
+	#zen-summary {
+		background-position: bottom;
+		height: 250px;
+		p {
+			padding-left: 0;
+		}
+	}
+	#zen-preamble {
+		background-position: bottom;
+		height: 500px;
+		p {
+			padding-right: 0;
+		}
+	}
+	#zen-explanation {
+		background-size: 100% 300px;
+		height: 820px;
+	}
+	#zen-requirement {
+		height: 20%;
+	}
+	aside.sidebar {
+		grid-column: 2/3;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		right: 0;
+		max-width: 350px;
+		background-color: $color-4;
+	}
+}
+@media only screen and (min-width: 1090px) {
+	#zen-summary {
+		height: 250px;
+	}
+	#zen-preamble {
+		height: 410px;
+	}
+	#zen-explanation {
+		height: 600px;
+	}
+	#zen-requirements {
+		background-size: 450px;
+		margin-bottom: auto;
+		padding: 0px;
+		margin-bottom: 50px;
+		height: 50%;
+	}
+}
